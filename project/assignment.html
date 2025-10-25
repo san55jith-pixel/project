@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Sanjith Brijmohan">
+        <meta name="description" content="Personal webpage">
+        <title>About Sanjith Brijmohan</title>
+        <link rel="stylesheet" href="style.css">
+    </head>    
+    <body>
+        <header>
+            <h1>About Me</h1>
+        </header>
+        <a href="https://www.instagram.com/__.s.a.n.j.i.t.h.__" target="_blank">
+            <img src="photo.jpg" alt="Sanjith Brijmohan" id="photo">
+        </a>
+        <h2>About Me</h2>
+        <p>I am Sanjith Brijmohan, a passionate learner interested in technology and programming. I like exploring new ideas and learning different skills. Below are my strengths and weaknesses.</p>
+        <h3>Strengths</h3>
+        <ul>
+            <li>Quick learner</li>
+            <li>Logical problem solving</li>
+        </ul>
+        <h3>Weaknesses</h3>
+        <ul>
+            <li>Overthinks sometimes</li>
+            <li>Perfectionist</li>
+            <li>Gets nervous in public speaking</li>
+        </ul>
+        <h2>My Bucket List</h2>
+        <table>
+        <tr>
+            <th>Serial No.</th>
+            <th>Item</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Get placed in a good company</td>
+            <td>Not Completed</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Start my own company</td>
+            <td>Not Completed</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Learn AI</td>
+            <td>In Progress</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Buy my dream car</td>
+            <td>Not Completed</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Travel world</td>
+            <td>Not Completed</td>
+        </tr>
+        </table>
+        <h2>My Favorites</h2>
+        <p>Favorite Movie Clip:</p>
+        <video width="400" controls>
+            <source src="movie.mp4" type="video/mp4">
+            Your browser does not support video tag.
+        </video>
+        <p>Favorite Song:</p>
+        <audio controls>
+            <source src="song.mp3" type="audio/mpeg">
+            Your browser does not support audio tag.
+        </audio>
+        <br>
+        <button id="btn">Click Me</button>
+        <script>
+            document.getElementById("btn").onclick = function() {alert("Hello, welcome to my page!");}
+            document.getElementById("photo").onmouseover = function() {document.body.style.backgroundColor = "#9e3f3f";}
+            document.getElementById("photo").onmouseout = function() {document.body.style.backgroundColor = "#4e1c1c";}
+        </script>
+    </body>
+</html>            
+
+
+
